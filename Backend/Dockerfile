@@ -22,4 +22,4 @@ ADD https://s3.ap-south-1.amazonaws.com/host-student.war/mysql-connector.jar lib
 
 EXPOSE 8080
 
-CMD ["/bin/catalina.sh" , "run"]
+CMD ["bin/catalina.sh" , "run"]
